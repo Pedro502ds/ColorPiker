@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reloj Digital</title>
-    <link rel="stylesheet" href="estilo.css" />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilo3.css" />
   </head>
   <body>
-    <h1 class="titulo">Reloj Digital</h1>
-    <div id="reloj">00:00:00</div>
+    <h2>Paleta de Colores</h2>
+    <div class="salida" id="salida">#ffffff</div>
+    <div class="color-div">
+      <input type="color" id="color" />
+    </div>
+    <h3>Colores Guardados:</h3>
+    <span id="suma"></span>
+    <div class="boton" id="boton">
+      <button id="Guardar" onclick="almacenarColores()">Guardar Color</button>
+    </div>
+    <div class="colores" id="colores"></div>
+    <script src="./java/pruebaF.js"></script>
   </body>
-  <script src="scrip.js"></script>
 </html>
+
